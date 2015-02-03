@@ -1,6 +1,6 @@
 <?php
 $data = $_REQUEST;
-$url =  'http://shecodes.workingclock.com';
+$url =  'http://some-url';
 $url = $url.$data['url'];
 $options = array(
     'http' => array(

@@ -4,9 +4,9 @@ class DBsession
 		//$connection - connection variable which needs to come from the calling page
 		private $connection;
 		//database connection details
-		private $server = 'WIN-sjdn1ebmaac';
-		private $user = 'sa';
-		private $password = 'Aerocrs161!';
+		private $server = '';
+		private $user = '';
+		private $password = '';
 		//Create connection and construct the db object
 		public function __construct($database) {
 		
